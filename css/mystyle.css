@@ -1,9 +1,123 @@
 h1 {
-    color:palevioletred;
+    text-align: center;
+    color: palevioletred;
+    text-decoration: underline rgb(232, 179, 209);
+    text-indent: 1rem;
+    font-family: 'Tilt Warp', cursive;
 }
+
 h1.page1 {
-    color:khaki;
+    color: khaki;
+    border: 1rem dotted khaki;
+text-decoration: none;
+
+  
 }
-body ul li{
-    color:lightcoral
+
+body ul li {
+    color: palevioletred;
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: none;
+
+}
+
+p.txt1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Tilt Warp', cursive;
+    color: darksalmon;
+}
+p.txt2 {
+    text-align: center;
+letter-spacing: normal;
+word-spacing: normal;
+font-family: 'Open Sans', sans-serif;
+font-size: medium;
+line-height: 2rem;
+text-shadow: 0px 1px 3px darksalmon;
+
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: underline khaki;
+    color: khaki;
+}
+
+a:hover {
+    text-decoration: underline rgb(253, 187, 126);
+    color: rgb(253, 187, 126);
+
+}
+
+footer {
+    clear: both;
+    background: rgb(176, 208, 220);
+    height: 1rem;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    z-index: 1 rem;
+    background-color: plum;
+    border: 0, 5 rem plum;
+    border-radius: 20px;
+    padding: 0, 2rem;
+    font-family: 'Tilt Warp', cursive;
+}
+
+img {
+width: 30rem;
+
+}
+
+ul{
+    list-style-type: square;
+}
+
+or{
+list-style-type:upper-roman;
+
+}
+
+body or li{
+        color: palevioletred;
+        font-family: 'Tilt Warp', cursive;
+        font-size: medium;
+    
+}
+h1.page2{
+    border: none;
+}
+section img{
+    float:left;
+}
+
+main.grid article{
+    display:grid;
+grid-template-columns:auto auto;
+gap: 2rem;
+}
+main.flexbox{
+display:flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+main.flexbox article{
+background-color: darksalmon;
+margin: 1rem;
+padding:2rem;
 }
