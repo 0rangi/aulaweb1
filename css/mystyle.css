@@ -65,16 +65,16 @@ footer {
     height: 1rem;
 }
 
-div {
+div.zap {
     position: fixed;
     right: 0;
     bottom: 0;
     display: inline-block;
-    z-index: 1 rem;
+    z-index: 2rem;
     background-color: plum;
-    border: 0, 5 rem plum;
-    border-radius: 20px;
-    padding: 0, 2rem;
+    border: 1rem plum;
+    border-radius: 10px;
+    padding: 0.5rem;
     font-family: 'Tilt Warp', cursive;
 }
 
@@ -84,7 +84,7 @@ width: 30rem;
 }
 
 ul{
-    list-style-type: square;
+    list-style-type:square;
 }
 
 or{
@@ -105,7 +105,7 @@ section img{
     float:left;
 }
 
-main.grid article{
+main.grid{
     display:grid;
 grid-template-columns:auto auto;
 gap: 2rem;
